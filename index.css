@@ -1,0 +1,25 @@
+#container {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 12px;
+}
+#container #p_2 {
+    color: brown;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: tomato
+}
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: steelblue;
+}
