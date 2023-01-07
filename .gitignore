@@ -1,3 +1,4 @@
-node_modules/
-dist/
+# not required on serve we can generate
+node_modules
+dist
 .parcel-cache
