@@ -1,25 +1,99 @@
-#container {
-    background-color: aquamarine;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+#container, .title , .title_3{
+    background-color: antiquewhite;
+    margin:1rem;
     font-size: 12px;
 }
-#container #p_2 {
+#p_1 {
     color: brown;
-    font-size: 10px;
+    text-align: center;
+    margin:4px;
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
 
+h1,h2,h3 {
+    padding: 2px;
+}
 h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    color: red;
+    text-align: start;
+    color: blueviolet;
 }
 h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    color: tomato
+    text-align: center;
+    color: rgb(67 84 176);
 }
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
+    text-align: end;
     color: steelblue;
+}
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+    height:100px;
+}
+div.img_logo > a > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top:25%;
+    left:25%
+}
+.input-group {
+    display: flex;
+    align-items: center;
+}
+.form-outline > input[type= "text"] {
+    width: 500px;
+    height: 32.5px;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 8px 16px;
+    border: none;
+    letter-spacing: 2px;
+    box-shadow: 0 0 1px #6c44ff, 0 6px 25px #0003;
+}
+
+.btn {
+    margin-left: -22px;
+    height: auto;
+    border: none;
+    border-radius: 12px;
+    
+}
+.btn-primary {
+    color: #3b71ca;
+    box-shadow: 0 4px 9px -4px #3b71ca;
+    background-color: #3b71ca;
+}
+
+.btn i {
+    font-size: 22px;
+    color: #fff;
+    padding: 14px;
+}
+.user-icon {
+    display: inherit;
+}
+.btn-user {
+    margin: auto 16px;
+    border: none;
+    border-radius: 50%;
+    background-color: #3b71ca;
+    box-shadow: 0 4px 9px -4px #3b71ca;
 }
